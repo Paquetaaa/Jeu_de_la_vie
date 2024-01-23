@@ -7,7 +7,7 @@
 #define LARGEUR 150 //Taille de notre matrice de cellules
 #define BACKGROUND '.' //Case vide
 #define CELL 'o' //Cellule
-#define TIME 100 // Temps actualisation 
+#define TIME 10 // Temps actualisation 
 
 typedef enum {
 	DEAD,
@@ -157,7 +157,7 @@ int main() {
 
 	//Permet de génerer un canon à planeurs
 	
-	/*
+	
 	grid[50][6].state = ALIVE;
 	grid[50][7].state = ALIVE;
 	grid[51][6].state = ALIVE;
@@ -194,7 +194,7 @@ int main() {
 	grid[84][5].state = ALIVE;
 	grid[85][4].state = ALIVE;
 	grid[85][5].state = ALIVE;
-	*/
+	
 
 
 
